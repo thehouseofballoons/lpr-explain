@@ -38,12 +38,13 @@ Ensure you have Python 3.12+ installed. Install the necessary lightweight depend
 
 ```bash
 pip install torch torchvision numpy matplotlib python-dateutil
-
+```
 Execution
+
 Run the pipeline script to evaluate the network, calculate layer relevance, and save the visualization:
-
+```bash
 python lpr_explain.py
-
+```
 📂 Project Structure
 lpr_explain.py — Contains the synthetic LPR character network architecture, custom linear/convolutional propagation engines, and the execution pipeline.
 

@@ -45,12 +45,10 @@ Run the pipeline script to evaluate the network, calculate layer relevance, and 
 ```bash
 python lpr_explain.py
 ```
-📂 Project Structure
-lpr_explain.py — Contains the synthetic LPR character network architecture, custom linear/convolutional propagation engines, and the execution pipeline.
+### 📂 Project Structure
+* `lpr_explain.py` — Contains the synthetic LPR character network architecture, custom linear/convolutional propagation engines, and the execution pipeline.
+* `lrp_output.png` — The final side-by-side diagnostic visualization saved automatically to your workspace.
 
-lrp_output.png — The final side-by-side diagnostic visualization saved automatically to your workspace.
-
-📈 Next Milestones
-[ ] Implement advanced LRP-alpha/beta rule logic to isolate positive vs. negative pixel contributions.
-
-[ ] Add an interface wrapper to feed real-world cropped license plate images via PIL/OpenCV.
+### 📈 Next Milestones
+- [ ] Implement advanced LRP-alpha/beta rule logic to isolate positive vs. negative pixel contributions.
+- [ ] Add an interface wrapper to feed real-world cropped license plate images via PIL/OpenCV.
